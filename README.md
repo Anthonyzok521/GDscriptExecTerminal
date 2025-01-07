@@ -13,3 +13,6 @@ godot --headless --script myscript.gd
 
 godot --headless --script myscript.gd --verbose
 ```
+
+# Preview
+![alt text](image.png)
