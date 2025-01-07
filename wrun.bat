@@ -1,5 +1,5 @@
 @echo off
-set godot_path=""
+set godot_path="C:/tools/Godot4.3/godot.exe"
 
 IF "%~1"=="" (
     echo No params: %0 ^<path^> [^<debug^>]
