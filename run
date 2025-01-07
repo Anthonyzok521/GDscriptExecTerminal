@@ -1,0 +1,16 @@
+#!/bin/bash
+
+godot_path="" #Godot path here
+
+if [ -z "$1" ]; then
+    exit 1
+fi
+
+path=$1
+debug="" #--verbose for debug
+
+if [ $# -ge 2 ]; then
+    debug=$2
+fi
+
+$godot_path --headless --script $path $debug

@@ -2,6 +2,8 @@
 
 > [!NOTE]
 > Set path of your Godot in run or wrun
+> ```godot_path```
+> example: *C:/tools/Godot4.3/godot.exe*
 
 ## Command for execute
 ```shell
